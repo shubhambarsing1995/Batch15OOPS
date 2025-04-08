@@ -87,7 +87,38 @@ namespace Batch15OOPS
             average = (double)Sum / numbers.Length;
             Console.WriteLine("The average values of array is" + average);
 
+            //ArrayAssignment
+            int[] array1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+            Console.WriteLine("alternate element in array:");
+            for (int i = 0; i < array1.Length; i += 2)
+            {
+                Console.WriteLine(" " + array1[i] + " ");
+            }
+            //
+            Console.WriteLine("");
+            Console.WriteLine("number of element in array:"+ array1.Length);
 
+            //smallest no
+            int min = array1[0];
+            foreach(int num in array1)
+            {
+                if (num < min)
+                {
+                    min = num;
+                }
+            }
+            Console.WriteLine(" smallest number  in array:" + min);
+
+            //largest no
+            int max = array1[0];
+            foreach (int num in array1)
+            {
+                if (num > max)
+                {
+                    max = num;
+                }
+            }
+            Console.WriteLine(" largest number  in array:" + max);
 
         }
 

@@ -17,8 +17,20 @@ namespace Batch15OOPS
 
         //float
         float pi = 1.15f;
+
+        //decimal
+        decimal number = 3.125m;
+
         //bool
         bool isActive = true;
+        string test = "te";
+
+        static void main()
+        {
+
+        }
+
+        //note
 
 
         
